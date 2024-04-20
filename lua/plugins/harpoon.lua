@@ -20,25 +20,25 @@ return {
         end,
       },
       {
-        "<C-h>",
+        "<leader>1",
         function()
           require("harpoon.ui").nav_file(1)
         end,
       },
       {
-        "<C-j>",
+        "<leader>2",
         function()
           require("harpoon.ui").nav_file(2)
         end,
       },
       {
-        "<C-k>",
+        "<leader>3",
         function()
           require("harpoon.ui").nav_file(3)
         end,
       },
       {
-        "<C-l>",
+        "<leader>4",
         function()
           require("harpoon.ui").nav_file(4)
         end,
