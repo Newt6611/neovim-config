@@ -12,6 +12,10 @@ return {
 	keys = function()
 		return {
 			{ "<leader>gs", "<cmd>Neogit<CR>" },
+			{ "<leader>gc", "<cmd>Neogit commit<CR>" },
+			{ "<leader>gp", "<cmd>Neogit pull<CR>" },
+			{ "<leader>gP", "<cmd>Neogit push<CR>" },
+			{ "<leader>gf", "<cmd>Neogit fetch<CR>" },
 		}
 	end,
 }
