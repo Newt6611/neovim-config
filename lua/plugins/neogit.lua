@@ -8,5 +8,10 @@ return {
 		"nvim-telescope/telescope.nvim", -- optional
 		"ibhagwan/fzf-lua",              -- optional
 	},
-	config = true
+	config = true,
+	keys = function()
+		return {
+			{ "<leader>gs", "<cmd>Neogit<CR>" },
+		}
+	end,
 }
