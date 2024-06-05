@@ -16,6 +16,7 @@ return {
 			{ "<leader>gp", "<cmd>Neogit pull<CR>" },
 			{ "<leader>gP", "<cmd>Neogit push<CR>" },
 			{ "<leader>gf", "<cmd>Neogit fetch<CR>" },
+			{ "<leader>dv", "<cmd>DiffviewOpen<CR>" },
 		}
 	end,
 }
