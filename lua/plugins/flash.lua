@@ -1,3 +1,6 @@
 return {
-  "folke/flash.nvim",
+	"folke/flash.nvim",
+	keys = {
+		{ "S", false },
+	},
 }
