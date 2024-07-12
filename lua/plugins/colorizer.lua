@@ -1,6 +1,7 @@
 return {
     "norcalli/nvim-colorizer.lua",
     config = function()
-        require("colorizer").setup()
+		local lspconfig = require('lspconfig')
+		lspconfig.aiken.setup({})
     end,
 }

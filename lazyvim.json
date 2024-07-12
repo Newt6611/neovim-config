@@ -1,7 +1,7 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.lang.angular",
     "lazyvim.plugins.extras.lang.go",
+    "lazyvim.plugins.extras.lang.haskell",
     "lazyvim.plugins.extras.lang.typescript"
   ],
   "news": {
